@@ -11,6 +11,12 @@ const Home = () => (
 <li key="2">
 <Link to="/second-page">Second Page</Link>
 </li>
+  <li key="3">
+<Link to="/third-page">third Page</Link>
+</li>
+  <li key="4">
+<Link to="/fourth-page">fourth Page</Link>
+</li>
 </ul>
 </>
 );
@@ -29,6 +35,19 @@ const SecondPage = () => (
 </>
 );
 
+const ThirdPage = () => (
+<>
+<h1>Third Page</h1>
+<Link to="/">Go back Home</Link>
+</>
+);
+
+const FourthPage = () => (
+<>
+<h1>Fourth Page</h1>
+<Link to="/">Go back Home</Link>
+</>
+);
 function App() {
 console.log(process.env.NODE_ENV);
 return (
@@ -36,6 +55,8 @@ return (
 <Route exact path="/" component={Home} />
 <Route path="/first-page" component={FirstPage} />
 <Route path="/second-page" component={SecondPage} />
+<Route path="/third-page" component={SecondPage} />
+<Route path="/fourth-page" component={SecondPage} />
 </BrowserRouter>
 );
 }
