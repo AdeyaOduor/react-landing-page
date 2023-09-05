@@ -1,7 +1,4 @@
 /*!
- * raw-body
- * Copyright(c) 2013-2014 Jonathan Ong
- * Copyright(c) 2014-2015 Douglas Christopher Wilson
  * MIT Licensed
  */
 
@@ -9,7 +6,6 @@
 
 /**
  * Module dependencies.
- * @private
  */
 
 var bytes = require('bytes')
