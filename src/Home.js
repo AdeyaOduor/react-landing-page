@@ -13,7 +13,7 @@ import {
 }
 from 'mdb-react-ui-kit';
 
-function App() {
+function Home() {
   return (
     <MDBContainer fluid>
 
@@ -64,4 +64,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
