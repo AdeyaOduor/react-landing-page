@@ -1,6 +1,10 @@
 import React from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import HomePage from "./HomePage";
+import HomePage from "./AboutPage";
+import HomePage from "./StudentRegisterPage";
+import HomePage from "./ServicesPage";
+import HomePage from "./PageNotFound";
 
 const Home = () => (
 <>
