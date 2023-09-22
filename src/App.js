@@ -11,16 +11,16 @@ const Home = () => (
 <h1>Home</h1>
 <ul>
 <li key="1">
-<Link to="/first-page">First Page</Link>
+<Link to="/login-page">login Page</Link>
 </li>
 <li key="2">
-<Link to="/second-page">Second Page</Link>
+<Link to="/about-page">About Page</Link>
 </li>
   <li key="3">
-<Link to="/third-page">third Page</Link>
+<Link to="/contact-page">Contact Page</Link>
 </li>
   <li key="4">
-<Link to="/fourth-page">fourth Page</Link>
+<Link to="/notfound-page">NotFound Page</Link>
 </li>
 </ul>
 </>
