@@ -11,7 +11,7 @@ const Home = () => (
 <h1>Home</h1>
 <ul>
 <li key="1">
-<Link to="/login-page">login Page</Link>
+<Link to="/home-page">Home Page</Link>
 </li>
 <li key="2">
 <Link to="/about-page">About Page</Link>
