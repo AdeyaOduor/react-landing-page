@@ -18,9 +18,12 @@ const Home = () => (
 </li>
   <li key="3">
 <Link to="/student-register-page">StudentRegister Page</Link>
+  <li key="2">
+<Link to="/services-page">Services Page</Link>
+</li>
 </li>
   <li key="4">
-<Link to="/notfound-page">NotFound Page</Link>
+<Link to="/pagenotfound-page">NotFound Page</Link>
 </li>
 </ul>
 </>
