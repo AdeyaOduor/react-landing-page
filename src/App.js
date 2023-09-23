@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
-import HomePage from "./HomePage";
-import AboutPage from "./AboutPage";
-import StudentRegister from "./StudentRegisterPage";
-import Services from "./ServicesPage";
+import HomePage from "./Home";
+import AboutPage from "./About";
+import StudentRegister from "./StudentRegister";
+import Services from "./Services";
 import NotFound from "./NotFound";
 
 const Home = () => (
