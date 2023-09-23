@@ -23,7 +23,7 @@ const Home = () => (
 </li>
 </li>
   <li key="4">
-<Link to="/pagenotfound-page">NotFound Page</Link>
+<Link to="/pagenotfound-page">PageNotFound Page</Link>
 </li>
 </ul>
 </>
