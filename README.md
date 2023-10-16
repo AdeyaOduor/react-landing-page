@@ -6,3 +6,5 @@ Simple react app under develpment demonstrating how to route pages using node ex
 # https://thepythoncode.com/article/fullstack-notes-app-with-fastapi-and-reactjs?utm_source=newsletter&utm_medium=email&utm_campaign=newsletter#google_vignette
 
 # https://mdbootstrap.com/docs/react/extended/registration-form/
+
+# https://www.edureka.co/blog/interview-questions/react-interview-questions/
