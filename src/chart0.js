@@ -10,6 +10,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+// make HTTP request to an API endpoint and use the received data to generate chart.
 const fetchChartDataFromAPI = () => {
   return axios.get('https://api.example.com/chart-data');
 };
@@ -36,7 +37,7 @@ const ChartComponent = () => {
     <div className={classes.chartContainer}>
       {chartData ? (
         <>
-          <Typography variant="h6">Sales Chart</Typography>
+          <Typography variant="h6">Reports</Typography>
           <Bar data={chartData} />
         </>
       ) : (
