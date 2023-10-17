@@ -14,25 +14,25 @@ const fetchDataFromDatabase = () => {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve({
-        labels: ['Learners', 'Staff', 'Allocated_area', 'WoodlotTrees', 'FruitTrees', ],
-        datasets: [
-          {
-            label: 'Target',
-            data: [650, 20, 3.0, 300, 200],
-            backgroundColor: 'rgba(54, 162, 235, 0.5)',
-          },
-          {
-            label: 'TreePlanting',
-            data: [650, 20, 3.0, 200, 200],
-            backgroundColor: 'rgba(54, 162, 235, 0.5)',
-          },
-          {
-            label: 'Monitoring',
-            data: [65, 10, 3.0, 181, 156],
-            backgroundColor: 'rgba(54, 162, 235, 0.5)',
-          },
-        ],
-      });
+      //   labels: ['Learners', 'Staff', 'Allocated_area', 'WoodlotTrees', 'FruitTrees', ],
+      //   datasets: [
+      //     {
+      //       label: 'Target',
+      //       data: [650, 20, 3.0, 300, 200],
+      //       backgroundColor: 'rgba(54, 162, 235, 0.5)',
+      //     },
+      //     {
+      //       label: 'TreePlanting',
+      //       data: [650, 20, 3.0, 200, 200],
+      //       backgroundColor: 'rgba(54, 162, 235, 0.5)',
+      //     },
+      //     {
+      //       label: 'Monitoring',
+      //       data: [65, 10, 3.0, 181, 156],
+      //       backgroundColor: 'rgba(54, 162, 235, 0.5)',
+      //     },
+      //   ],
+      // });
     }, 1500);
   });
 };
